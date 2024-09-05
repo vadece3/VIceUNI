@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.login_registration.AfterLoginController">
+   <children>
+      <Button layoutX="104.0" layoutY="147.0" mnemonicParsing="false" onAction="#GoToComment" prefHeight="106.0" prefWidth="105.0" text="Go to comments" />
+      <Button layoutX="347.0" layoutY="141.0" mnemonicParsing="false" onAction="#logOut" prefHeight="114.0" prefWidth="118.0" text="Log_out" />
+      <Label fx:id="welcomeStatus" layoutX="157.0" layoutY="24.0" prefHeight="54.0" prefWidth="266.0" />
+   </children>
+</AnchorPane>

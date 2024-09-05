@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="233.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.commentsectionuser.SingleCommentController">
+   <children>
+      <Label fx:id="commentText" layoutY="-2.0" prefHeight="185.0" prefWidth="600.0" />
+      <Label fx:id="commentDate" layoutX="14.0" layoutY="184.0" prefHeight="30.0" prefWidth="70.0" />
+      <Label fx:id="commentInterestValue" layoutX="322.0" layoutY="191.0" prefHeight="18.0" prefWidth="91.0" />
+      <Button fx:id="interestButtonStatus" layoutX="443.0" layoutY="187.0" mnemonicParsing="false" onAction="#interestButton" prefHeight="26.0" prefWidth="128.0" />
+   </children>
+</AnchorPane>
